@@ -28,11 +28,6 @@ Note:
     S and T consist of lowercase letters only.
 
 ## Idea
-According to the question, the program should perform mutiplication of two complex numbers.
+Upon seeing this problem, an idea strikes me that picking out `the same letters` of `string T` appearing in the `string S` and permuting these characters according to the order in `string S` with same frequency of occurrence in `string T`. After that, the remaining letters of `string T` but excluded in `string S` are appended to the end of the re-sorted sequence.
 
-As is known, `(m + ni) * (p + qi) = m * p - n * q + (m * q + n * p)i`. Besides, input strings and output strings are all in the form of `a + bi`. Thus, using `split()` function in String class is a natural intuition to obtain `real number field` and `complex number field` respectively.
-
-After that, we can compute multiplication in terms of the above equation and store the result in a StringBuilder container.
-
-## Attention
-The parameter of split() is a `regular expression`. Here, I want to use "+" as a separator, but "+" has some special and specific meaning in regular expressions. Therefore, please replace `"+"` with `"\\+"` (adding escape character) here.
+When we solving this problem, HashTable is a great data structure to choose here. Instead of using HashTable class, an int array with the length of 26 plays the same role in `String problems` and can be more effective than Java classes. Specifically, indices of the array represent 26 different letters (ascII) and elements of it record the number of times that each character occurs.
