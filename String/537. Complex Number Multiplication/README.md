@@ -2,9 +2,9 @@
 ===
 
 ## Description
- Given two strings representing two complex numbers.
+ Given two strings representing two `complex numbers`.
 
-You need to return a string representing their multiplication. Note i2 = -1 according to the definition.
+You need to return a string representing their multiplication. Note i^2 = -1 according to the definition.
 
 Example 1:
 
@@ -20,8 +20,8 @@ Example 2:
 
 Note:
 
-    The input strings will not have extra blank.
-    The input strings will be given in the form of a+bi, where the integer a and b will both belong to the range of [-100, 100]. And the output should be also in this form.
+1.The input strings will not have extra blank.
+2.The input strings will be given in the form of `a+bi`, where the integer `a` and `b` will both belong to the range of [-100, 100]. And `the output should be also in this form`.
 
 ## Idea
 According to the question, the program should perform mutiplication of two complex numbers.
