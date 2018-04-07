@@ -1,4 +1,4 @@
-Complex Number Multiplication
+[Medium]Complex Number Multiplication
 ===
 
 ## Description
@@ -24,7 +24,7 @@ Note:
     The input strings will be given in the form of a+bi, where the integer a and b will both belong to the range of [-100, 100]. And the output should be also in this form.
 
 ## Idea
-According to the question, the program should perform simulation of mutiplication of two complex numbers.
+According to the question, the program should perform mutiplication of two complex numbers.
 
 As is known, `(m + ni) * (p + qi) = m * p - n * q + (m * q + n * p)i`. Besides, input strings and output strings are all in the form of `a + bi`. Thus, using `split()` function in String class is a natural intuition to obtain `real number field` and `complex number field` respectively.
 
