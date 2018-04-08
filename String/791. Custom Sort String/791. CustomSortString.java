@@ -24,13 +24,6 @@ Note:
 package string.medium;
 
 public class _791_CustomSortString {
-	int haha;
-	int wosi;
-	public static void main(String[] args) {
-		_791_CustomSortString test = new _791_CustomSortString();
-		System.out.println(test.customSortString("cba", "abbcded"));
-	}
-	
 	public String customSortString(String S, String T) {
 		StringBuilder result = new StringBuilder();
 		for(int i = 0; i < S.length(); i++) {
