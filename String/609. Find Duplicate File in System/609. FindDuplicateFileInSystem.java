@@ -52,10 +52,6 @@ import java.util.List;
 import java.util.Map.Entry;
 
 public class _609_FindDuplicateFileInSystem {
-	public static void main(String[] args) {
-		
-	}
-	
 	public List<List<String>> findDuplicate(String[] paths) {
 		Hashtable<String, List<String>> table = new Hashtable<String, List<String>>();
 		for(int i = 0; i < paths.length; i++) {
