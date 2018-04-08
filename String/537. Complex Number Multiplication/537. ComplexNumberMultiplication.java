@@ -24,12 +24,7 @@ Note:
 package string.medium;
 
 public class _537_ComplexNumberMultiplication {
-	public static void main(String[] args) {
-		_537_ComplexNumberMultiplication test = new _537_ComplexNumberMultiplication();
-		System.out.print(test.complexNumberMultiply("1+1i", "1+1i"));
-	}
-	
-	public String complexNumberMultiply(String a, String b) {
+    public String complexNumberMultiply(String a, String b) {
         StringBuilder result = new StringBuilder();
         String[] aArr = a.split("\\+"), bArr = b.split("\\+");
         //(m+ni)*(p+qi) = mp-nq+(mq+np)i
