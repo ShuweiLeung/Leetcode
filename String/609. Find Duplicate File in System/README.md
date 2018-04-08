@@ -49,11 +49,10 @@ The **output** is a list of group of duplicate file paths. For each group, it co
 
 
 ## Idea
-According to the question, the program should perform mutiplication of two complex numbers.
+In order to know the paths of files with same content, we use `Hashtable` data structure intuitively. The `key` of Hashtable is the content of files and its `value` is a List which stores file paths. 
 
-As is known, `(m + ni) * (p + qi) = m * p - n * q + (m * q + n * p)i`. Besides, input strings and output strings are all in the form of `a + bi`. Thus, using `split()` function in String class is a natural intuition to obtain `real number field` and `complex number field` respectively.
+So, how to obatin the content and file paths from the input String array?
 
-After that, we can compute multiplication in terms of the above equation and store the result in a StringBuilder container.
+Since directory path and file info are separated by a single blank space, function `split()` can help split directory path and each file info including file names and file content apart. Then, for every file info, entry with keys and values can be established by `indexOf()` and `subString()` intercepting file names and file content.
 
-## Attention
-The parameter of split() is a `regular expression`. Here, I want to use "+" as a separator, but "+" has some special and specific meaning in regular expressions. Therefore, please replace `"+"` with `"\\+"` (adding escape character) here.
+In the end, by traversing Hashtable structrue, so long as the sizes of values are bigger than 1, return these groups of file paths.
