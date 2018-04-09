@@ -21,8 +21,6 @@ Note:
     The input strings will be given in the form of a+bi, where the integer a and b will both belong to the range of [-100, 100]. And the output should be also in this form.
  */
 
-package string.medium;
-
 public class _537_ComplexNumberMultiplication {
     public String complexNumberMultiply(String a, String b) {
         StringBuilder result = new StringBuilder();
