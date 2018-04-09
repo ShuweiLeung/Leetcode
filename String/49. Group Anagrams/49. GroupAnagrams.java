@@ -14,8 +14,6 @@ Note: All inputs will be in lower-case.
  
  */
 
-package string.medium;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Hashtable;
@@ -23,12 +21,6 @@ import java.util.List;
 import java.util.Map.Entry;
 
 public class _49_GroupAnagrams {
-	public static void main(String[] args) {
-		_49_GroupAnagrams test = new _49_GroupAnagrams();
-		String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
-		test.groupAnagrams(strs);
-	}
-	
 	public List<List<String>> groupAnagrams(String[] strs) {
 		List<List<String>> result = new ArrayList<List<String>> ();
 		Hashtable<String, List<String>> table = new Hashtable<String, List<String>>();	//key是字母，value是anagram字符串
