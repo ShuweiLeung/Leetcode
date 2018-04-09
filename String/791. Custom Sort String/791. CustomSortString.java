@@ -21,8 +21,6 @@ Note:
     S and T consist of lowercase letters only.
  */
 
-package string.medium;
-
 public class _791_CustomSortString {
 	public String customSortString(String S, String T) {
 		StringBuilder result = new StringBuilder();
