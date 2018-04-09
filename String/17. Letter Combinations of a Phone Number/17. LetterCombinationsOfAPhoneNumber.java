@@ -10,26 +10,17 @@ Note:
 Although the above answer is in lexicographical order, your answer could be in any order you want. 
  */
 
-package string.medium;
-
 import java.util.List;
 import java.util.ArrayList;
 
 public class _17_LetterCombinationsOfAPhoneNumber {
 	String[][] map = {{}, {}, {"a","b","c"}, {"d","e","f"}, {"g","h","i"}, {"j","k","l"}, {"m","n","o"}, {"p","q","r","s"}, {"t","u","v"}, {"w","x","y","z"}};
-	public static void main(String[] args) {
-		_17_LetterCombinationsOfAPhoneNumber test = new _17_LetterCombinationsOfAPhoneNumber();
-		List<String> list = test.letterCombinations("23");
-		for(String str:list) {
-			System.out.println(str);
-		}
-	}
 	
 	public List<String> letterCombinations(String digits) {
 		List<String> res = (List<String>)new ArrayList<String>();		//结果集
 		if(digits.length() == 0)
 			return res;
-		dfs(res, digits, 0, "");			//DFS深度搜索
+		dfs(res, digits, 0, "");			//递归调用
 		return res;
 	}
 	
@@ -38,7 +29,7 @@ public class _17_LetterCombinationsOfAPhoneNumber {
 			res.add(path);
 			return;
 		}
-		if(digits.charAt(depth) == '0' || digits.charAt(depth) == '1')	//digit为0或1时，没有代表的字母，所以跳过
+		if(digits.charAt(depth) == '0' || digits.charAt(depth) == '1')	//digit为0或1时，没有代表的字母，故跳过
 			dfs(res, digits, depth+1, path);
 		else {
 			int digit = Integer.valueOf(String.valueOf(digits.charAt(depth)));	//当前扫描到的digit
