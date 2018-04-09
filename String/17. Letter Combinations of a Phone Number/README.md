@@ -20,4 +20,4 @@ It is apparent that the length of `digits` is variable so that `Backtracking` is
 Before call the function recursively, we should set a 2-D array which stores the letters represented by each digital button, like `String[][] map = {{}, {}, {"a","b","c"}, {"d","e","f"}, {"g","h","i"}, {"j","k","l"}, {"m","n","o"}, {"p","q","r","s"}, {"t","u","v"}, {"w","x","y","z"}}`.
 
 ## Attention
-Digital buttons **7** and **9** represent 4 distinct letters while **0** and **1** have no links with any letter.
+Digital buttons **7** and **9** both represent 4 distinct letters while **0** and **1** have no links with any letter.
