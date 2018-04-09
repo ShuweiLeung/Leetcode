@@ -4,8 +4,6 @@ Given an integer, convert it to a roman numeral.
 Input is guaranteed to be within the range from 1 to 3999.
  */
 
-package string.medium;
-
 public class _12_IntegerToRoman {
 	/**
 	 * 罗马数字的基本型为：I=1，V=5，X=10，L=50，C=100，D=500，M=1000，相同的罗马数字最多不能超过三个。所以对于4只能表示为5-1即IV，
