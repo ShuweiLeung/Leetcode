@@ -17,4 +17,9 @@ Some examples:
 **Note**: **Do not** use the `eval` built-in library function. 
 
 ## Idea
-Standard Roman numeral notations are `I=1，V=5，X=10，L=50，C=100，D=500，M=1000`. Since no more than three same roman numerals can appear continuously, for int number 4, it can only be expressed by "5-1" (i.e. `IV=4`). Similarly, `IX=9，XL=40，XC=90，CD=400，CM=900`. In order to follow the rule that no more than three same roman numerals can be put continuously, we, at first, use the largest roman numeral to express the input number and update its value (like 3800-3*1000=800). When the updated value is bigger than the largest roman numeral, the second largest numeral can be tried until the updated final value is equal to 0.
+This is a very **classical** problem in String tag. As before, `stack` is a great choice to realize the required function. We can set two variables, `num` and `sign` which represent the int value of the current digit string and its front operator respectively. During the first traverse of the input string `s`, multiplication and division should be computed directly and subtraction should be transformed to the opposite number of the subtractor so that all of the numbers in `stack` should be added, i.e. there are only additive operation need to do after traversing the input string.
+
+## Attention
+1.`Character.isDigit(c)` can used to check if character 'c' represent a digit.
+
+2.`c-'0'` can derive the real int value of digit character 'c' directly.
