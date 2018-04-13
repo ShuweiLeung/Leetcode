@@ -1,22 +1,7 @@
-/*
-题目描述见Leetcode网站
- */
-
-package string.medium;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class _722_RemoveComments {
-	public static void main(String[] args) {
-		
-	}
-	
-	/**
-	 * 以下实现思路直接参考discuss高票答案，beat 100%
-	 * @param source
-	 * @return
-	 */
 	public List<String> removeComments(String[] source) {
         List<String> res = new ArrayList<>();
         StringBuilder sb = new StringBuilder();     
