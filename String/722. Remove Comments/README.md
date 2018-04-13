@@ -70,3 +70,15 @@ Explanation: The original source string is "a/*comment\nline\nmore_comment*/b", 
 * The length of source[i] is in the range [0, 80].
 * Every open block comment is eventually closed.
 * There are no single-quote, double-quote, or control characters in the source code.
+
+## Idea
+
+We only need to check for two things:
+
+1. If we see ‘//’ we stop reading the current line, and add whatever characters we have seen to the result.
+2. If we see ‘/*’ then we start the multiline comment mode and we keep on ignoring characters until we see ‘*/’.
+3. If the current character is neither of the above two and the multiline comment mode is off, then we add that character to the current line.
+
+Once we parse one line (source[i]), then if the mode is off, we add the currently generated line (StringBuilder) to the result and repeat for source[i + 1].
+
+We need to be careful not to insert empty lines in the result.
