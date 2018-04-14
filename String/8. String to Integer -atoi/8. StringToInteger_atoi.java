@@ -25,17 +25,7 @@ representable values, INT_MAX (2147483647) or INT_MIN (-2147483648) is returned.
 
  */
 
-package string.medium;
-
 public class _8_StringToInteger_atoi {
-	public static void main(String[] args) {
-		_8_StringToInteger_atoi test = new _8_StringToInteger_atoi();
-		System.out.println(test.myAtoi("-1"));
-	}
-	
-	/*
-	 * beat 26%，按照“Requirements for atoi”进行实现即可
-	 */
 	public int myAtoi(String str) {
 		str = str.trim();
 		if(str.length() == 0)
