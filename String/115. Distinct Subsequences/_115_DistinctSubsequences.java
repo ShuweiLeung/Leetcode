@@ -12,13 +12,7 @@ Return 3.
 
  */
 
-package string.hard;
-
 public class _115_DistinctSubsequences {
-	public static void main(String[] args) {
-		
-	}
-	
 	public int numDistinct(String S, String T) {
 		int n = S.length();
 	    int m = T.length();
