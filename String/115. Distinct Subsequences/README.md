@@ -1,4 +1,4 @@
-[Medium]Distinct Subsequences
+[Hard]Distinct Subsequences
 ===
 
 ## Description
