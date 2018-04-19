@@ -23,7 +23,7 @@ The palindromes are `["dcbaabcd", "abcddcba", "slls", "llssssll"]`
 ## Idea
 There are 4 cases to be considered that isPalindrome(s1 + s2):
 
-Case1: If s1 is a blank string, then for any string that is palindrome s2, s1+s2 and s2+s1 are palindrome.
+Case 1: If s1 is a blank string, then for any string that is palindrome s2, s1+s2 and s2+s1 are palindrome.
 
 Case 2: If s2 is the reversing string of s1, then s1+s2 and s2+s1 are palindrome.
 
