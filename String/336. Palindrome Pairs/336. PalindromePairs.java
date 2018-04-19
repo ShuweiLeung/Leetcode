@@ -15,19 +15,12 @@ Credits:
 Special thanks to @dietpepsi for adding this problem and creating all test cases.
  */
 
-package string.hard;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
 public class _336_PalindromePairs {
-	public static void main(String[] args) {
-		
-	}
-	
-	
 	/**
 	 * There are several cases to be considered that isPalindrome(s1 + s2):
 
