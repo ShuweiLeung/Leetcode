@@ -6,12 +6,16 @@ Given a list of **unique** words, find all pairs of **distinct** indices `(i, j)
 
 Example 1:
 Given `words` = `["bat", "tab", "cat"]`
+
 Return `[[0, 1], [1, 0]]`
+
 The palindromes are `["battab", "tabbat"]`
 
 Example 2:
 Given `words` = `["abcd", "dcba", "lls", "s", "sssll"]`
+
 Return `[[0, 1], [1, 0], [3, 2], [2, 4]]`
+
 The palindromes are `["dcbaabcd", "abcddcba", "slls", "llssssll"]`
 
 ## Idea
