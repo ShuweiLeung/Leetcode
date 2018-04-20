@@ -52,16 +52,10 @@ Output: false
 
  */
 
-package string.hard;
 
 public class _10_RegularExpressionMatching {
-	public static void main(String[] args) {
-		_10_RegularExpressionMatching test = new _10_RegularExpressionMatching();
-		System.out.println(test.isMatch("aaa", "aaaa"));
-	}
-	
 	/**
-	 * 递归调用的思路，具体解释看笔记。字符串和正则表达式均是从后往前进行读取和解析
+	 * 递归调用的思路，字符串和正则表达式均是从后往前进行读取和解析
 	 * @param s
 	 * @param p
 	 * @return
@@ -101,7 +95,7 @@ public class _10_RegularExpressionMatching {
 	}
 	
 	/*
-	 * 下面的思路就是从左往右读取字符，先读取正则表达式，然后再解析字符串
+	 * 下面的思路是从左往右读取字符，先读取正则表达式，然后再解析字符串
 	 * 虽然能解决大部分正常的解析式，但对如s="aaa" p="ab*a*c*a"的测试例无法通过，如果仍按照该思路，只能利用“递归调用”来解决
 	public boolean isMatch(String s, String p) {
 		int i = 0, j = 0; 		//分别指向s、p串的指针
