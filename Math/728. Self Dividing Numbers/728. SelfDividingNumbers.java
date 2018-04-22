@@ -17,17 +17,10 @@ Note:
 The boundaries of each input argument are 1 <= left <= right <= 10000.
  */
 
-package math.easy;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class _728_SelfDividingNumbers {
-	public static void main(String[] args) {
-		_728_SelfDividingNumbers test = new _728_SelfDividingNumbers();
-		System.out.println(test.selfDividingNumbers(1, 22));
-	}
-	
 	public List<Integer> selfDividingNumbers(int left, int right) {
 		List<Integer> list = new ArrayList<>();
 		for(int i = left; i <= right; i++) {
