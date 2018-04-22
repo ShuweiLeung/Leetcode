@@ -24,13 +24,7 @@ Coud you solve it without converting the integer to a string?
 
  */
 
-package math.easy;
-
 public class _9_PalindromeNumber {
-	public static void main(String[] args) {
-		
-	}
-	
 	public boolean isPalindrome(int x) {
 		String s1 = String.valueOf(x);
 		String s2 = new StringBuilder(s1).reverse().toString();		//将s1反转
