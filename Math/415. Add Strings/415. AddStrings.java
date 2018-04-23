@@ -10,14 +10,7 @@ Note:
 
  */
 
-package math.easy;
-
 public class _415_AddStrings {
-	public static void main(String[] args) {
-		_415_AddStrings test = new _415_AddStrings();
-		System.out.println(test.addStrings("584", "18"));
-	}
-	
 	public String addStrings(String num1, String num2) {
 		if(num1.length() < num2.length()) {		//保证num1的长度大于等于num2的长度
 	    		String temp = num1;
