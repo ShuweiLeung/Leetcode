@@ -12,14 +12,7 @@ For example:
     28 -> AB 
  */
 
-package math.easy;
-
 public class _168_ExcelSheetColumnTitle {
-	public static void main(String[] args) {
-		_168_ExcelSheetColumnTitle test = new _168_ExcelSheetColumnTitle();
-		System.out.print(test.convertToTitle(703));
-	}
-	
 	/**
 	 * 该题类似于10进制数转化为26进制数
 	 * @param n
