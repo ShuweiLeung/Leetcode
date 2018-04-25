@@ -30,5 +30,5 @@ Given a positive integer, return its corresponding column title as appear in an 
     Input: 701
     Output: "ZY"
 
-## Attention
+## Idea
 The decimal is converted into the base 26.
