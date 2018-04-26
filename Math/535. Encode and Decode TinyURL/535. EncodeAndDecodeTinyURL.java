@@ -9,13 +9,11 @@ algorithm should work. You just need to ensure that a URL can be encoded to a ti
 decoded to the original URL.
  */
 
-package math.medium;
-
 import java.util.HashMap;
 import java.util.Map.Entry;
 
 public class _535_EncodeAndDecodeTinyURL {
-	HashMap<String, String> map = new HashMap<>();		//key为longUrl，value为shortUrl
+    HashMap<String, String> map = new HashMap<>();		//key为longUrl，value为shortUrl
 
     // Encodes a URL to a shortened URL.
     public String encode(String longUrl) {
