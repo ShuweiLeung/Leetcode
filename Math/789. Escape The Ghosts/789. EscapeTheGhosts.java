@@ -37,22 +37,12 @@ The ghost can reach the target at the same time as you.
 
 Note:
 
-    All points have coordinates with absolute value <= 10000.
-    The number of ghosts will not exceed 100.
-
+1. All points have coordinates with absolute value <= 10000.
+2. The number of ghosts will not exceed 100.
 
  */
 
-package math.medium;
-
 public class _789_EscapeTheGhosts {
-	public static void main(String[] args) {
-		int[][] ghosts = {{1,8},{-9,0},{-7,-6},{4,3},{1,3}};
-		int[] target = {6,-9};
-		_789_EscapeTheGhosts test = new _789_EscapeTheGhosts();
-		System.out.println(test.escapeGhosts(ghosts, target));
-	}
-	
     public boolean escapeGhosts(int[][] ghosts, int[] target) {  
         int myDistance=Math.abs(target[0])+Math.abs(target[1]);  
         for(int i=0;i<ghosts.length;i++){  
