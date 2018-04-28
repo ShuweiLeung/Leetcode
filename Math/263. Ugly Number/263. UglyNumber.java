@@ -11,13 +11,7 @@ Note:
 
  */
 
-package math.easy;
-
 public class _263_UglyNumber {
-	public static void main(String[] args) {
-		
-	}
-	
 	public boolean isUgly(int num) {
 		if(num <= 0)
             return false;
