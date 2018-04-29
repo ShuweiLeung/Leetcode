@@ -6,14 +6,7 @@ Each rectangle is defined by its bottom left corner and top right corner as show
 Assume that the total area is never beyond the maximum possible value of int.
  */
 
-package math.medium;
-
 public class _223_RectangleArea {
-	public static void main(String[] args) {
-		_223_RectangleArea test = new _223_RectangleArea();
-		System.out.println(test.computeArea(-2, -2, 2, 2, 1, -3, 3, 3));
-	}
-	
 	/**
 	 * 该方法是之前暴力解法的简化，可以更快速的判断是否重叠并找到重叠矩形
 	 * @param A
