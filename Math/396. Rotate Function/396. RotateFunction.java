@@ -24,17 +24,9 @@ So the maximum value of F(0), F(1), F(2), F(3) is F(3) = 26.
 
  */
 
-package math.medium;
-
 import java.util.ArrayList;
 
 public class _396_RotateFunction {
-	public static void main(String[] args) {
-		_396_RotateFunction test = new _396_RotateFunction();
-		int[] A = {4, 3, 2, 6};
-		System.out.println(test.maxRotateFunction(A));
-	}
-	
 	/**
 	 * 根据规律计算F(i)值，具体推导见笔记，beat 99%
 	 * @param A
