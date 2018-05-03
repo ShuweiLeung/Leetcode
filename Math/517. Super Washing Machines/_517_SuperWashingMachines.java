@@ -45,13 +45,7 @@ Note:
 
  */
 
-package math.hard;
-
 public class _517_SuperWashingMachines {
-	public static void main(String[] args) {
-		
-	}
-	
 	/**
 	 * 个人认为该题并不能算作一个DP问题，因为更新dp[i]时，并没有与dp[0...i-1]建立联系，而是和avgNum一个固定数值进行比较，因为它并没有一个子结构
 	 * 我们可以把该问题看作一个管道，管道大小为1，衣服的移动相当于水流的流动，返回值就是最大的水位差
