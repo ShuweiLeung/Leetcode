@@ -34,13 +34,7 @@ Given x = [1, 1, 1, 1],
 Return true (self crossing)
  */
 
-package math.hard;
-
 public class _335_SelfCrossing {
-	public static void main(String[] args) {
-		
-	}
-	
 	/**
 	 * 该题共分为3种情况
 	 * 
