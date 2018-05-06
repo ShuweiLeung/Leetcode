@@ -17,17 +17,10 @@ Given binary tree [3,9,20,null,null,15,7],
 
 return its depth = 3.
  */
-
-package tree.easy;
-
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class _104_MaximumDepthOfBinaryTree {
-	public static void main(String[] args) {
-		
-	}
-	
 	/**
 	 * 使用DFS，效率会更高，beat 100%
 	 * @param root
