@@ -13,13 +13,7 @@ There are two left leaves in the binary tree, with values 9 and 15 respectively.
 
  */
 
-package tree.easy;
-
 public class _404_SumOfLeftLeaves {
-	public static void main(String[] args) {
-		
-	}
-	
 	public int sumOfLeftLeaves(TreeNode root) {
 		if(root == null)
 			return 0;
