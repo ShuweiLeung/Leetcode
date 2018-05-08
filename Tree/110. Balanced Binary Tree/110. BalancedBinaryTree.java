@@ -32,8 +32,6 @@ Given the following tree [1,2,2,3,3,null,null,4,4]:
 Return false.
  */
 
-package tree.easy;
-
 public class _110_BalancedBinaryTree {
 	boolean balanced = true;
 	public boolean isBalanced(TreeNode root) {
