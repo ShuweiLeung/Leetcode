@@ -19,8 +19,6 @@ return its minimum depth = 2.
 
  */
 
-package tree.easy;
-
 public class _111_MinimumDepthOfBinaryTree {
 	public int minDepth(TreeNode root) {
 		if(root == null)
