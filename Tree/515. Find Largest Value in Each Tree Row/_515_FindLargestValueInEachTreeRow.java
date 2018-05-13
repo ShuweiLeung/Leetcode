@@ -15,8 +15,6 @@ Output: [1, 3, 9]
 
  */
 
-package tree.medium;
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
