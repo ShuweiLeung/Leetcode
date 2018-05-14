@@ -1,4 +1,4 @@
-[Easy]Excel Sheet Column Title
+[Medium]Rectangle Area
 ===
 
 ## Description
