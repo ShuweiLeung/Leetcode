@@ -16,8 +16,6 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
 
  */
 
-package tree.hard;
-
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
