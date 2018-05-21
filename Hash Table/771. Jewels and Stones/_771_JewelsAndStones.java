@@ -22,16 +22,10 @@ Note:
 
  */
 
-package hashtable.easy;
-
 import java.util.HashMap;
 import java.util.Map.Entry;
 
 public class _771_JewelsAndStones {
-	public static void main(String[] args) {
-		
-	}
-	
 	/*
 	 * 下面根据字符串的indexOf来查找S中的字符是否存在于J中，更加高效
 	 */
