@@ -27,8 +27,6 @@ Note:
 
 package hashtable.easy;
 
-import java.util.HashMap;
-
 public class _575_DistributeCandies {
 	public int distributeCandies(int[] candies) {
 		HashMap<Integer, Integer> sisterhas = new HashMap<>();
