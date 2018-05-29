@@ -5,8 +5,6 @@ Supposed the linked list is 1 -> 2 -> 3 -> 4 and you are given the third node wi
  become 1 -> 2 -> 4 after calling your function. 
  */
 
-package linkedlist.easy;
-
 /**
  * Definition for singly-linked list.
  */
