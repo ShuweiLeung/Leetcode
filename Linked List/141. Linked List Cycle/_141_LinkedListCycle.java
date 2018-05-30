@@ -5,8 +5,6 @@ Follow up:
 Can you solve it without using extra space? 
  */
 
-package linkedlist.easy;
-
 public class _141_LinkedListCycle {
 	public boolean hasCycle(ListNode head) {
 	   if(head==null) return false;
