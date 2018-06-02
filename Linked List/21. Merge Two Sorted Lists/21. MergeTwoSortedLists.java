@@ -9,8 +9,6 @@ Output: 1->1->2->3->4->4
 
  */
 
-package linkedlist.easy;
-
 public class _21_MergeTwoSortedLists {
 	public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 		if(l1 == null)
