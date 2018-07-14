@@ -15,8 +15,6 @@ Note:
     There are many calls to sumRange function.
  */
 
-package dynamicprogramming.easy;
-
 public class _303_RangeSumQuery_Immutable {
 	int[] sums;
 	public _303_RangeSumQuery_Immutable(int[] nums) {
