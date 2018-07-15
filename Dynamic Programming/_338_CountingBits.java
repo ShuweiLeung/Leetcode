@@ -15,8 +15,6 @@ Follow up:
 
  */
 
-package dynamicprogramming.medium;
-
 public class _338_CountingBits {
 	public static void main(String[] args) {
 		_338_CountingBits test = new _338_CountingBits();
