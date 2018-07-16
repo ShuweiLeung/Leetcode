@@ -26,8 +26,6 @@ Input: s = "catsandog", wordDict = ["cats", "dog", "sand", "and", "cat"]
 Output: false
  */
 
-package dynamicprogramming.medium;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
