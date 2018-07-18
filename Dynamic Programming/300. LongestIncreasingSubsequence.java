@@ -15,8 +15,6 @@ Note:
 Follow up: Could you improve it to O(n log n) time complexity?
  */
 
-package dynamicprogramming.medium;
-
 import java.util.Arrays;
 
 public class _300_LongestIncreasingSubsequence {
