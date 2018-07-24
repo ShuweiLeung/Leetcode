@@ -28,8 +28,6 @@ Note:
     You may assume that there are no duplicate edges in the input prerequisites.
  */
 
-package depthFirstSearch.medium;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -40,7 +38,7 @@ import java.util.Set;
 
 public class _207_CourseSchedule {
 	/*
-	 * 正确的思路是使用"拓扑排序topological sort"，拓扑排序可以解决有向图中编号的顺序问题
+	 * 拓扑排序topological sort
 	 */
 	public boolean canFinish(int numCourses, int[][] prerequisites) {        
         ArrayList<ArrayList<Integer>> graph = new ArrayList<>(); //索引是高级课程，对应的value arraylist是先修课程
@@ -77,8 +75,6 @@ public class _207_CourseSchedule {
 	
 	/*
 	 * 超时
-	   本意是想使用BFS，将该树上的所有结点都遍历后，若没有环则说明所有课程都可以上，
-	   但不能判断[(0,1),(0,2),(1,2)]的情况，否则若用map集合来记录某个课程的搜索路径来判断是否有环，思路很复杂且超时
 	public boolean canFinish(int numCourses, int[][] prerequisites) {
 		if(prerequisites == null || prerequisites.length == 0)
 			return true;
