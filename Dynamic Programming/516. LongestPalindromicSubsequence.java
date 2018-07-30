@@ -25,8 +25,6 @@ Output:
 One possible longest palindromic subsequence is "bb". 
  */
 
-package dynamicprogramming.medium;
-
 public class _516_LongestPalindromicSubsequence {
 	/**
 	 * 该题与Leetcode String类第647题思路类似
